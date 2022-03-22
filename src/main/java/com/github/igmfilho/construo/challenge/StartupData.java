@@ -34,6 +34,7 @@ public class StartupData implements CommandLineRunner {
 		logger.info("loading categories and products ...");
 		loadCategories();
 		loadProducts();
+		logger.info("categories and products is loaded");
 	}
 	
     private void loadCategories(){
